@@ -1,0 +1,153 @@
+@font-face {
+    font-family: RobotoThin;
+    src: url(Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(Roboto-Light.ttf);
+}
+
+#Frontpage-image {
+ 	max-width: 99vw;
+	max-height: 65vh;
+	width: 99vw;
+ 	height: 45vh;
+
+
+ 	/* The image used*/
+ 	background-image: url("Frontpage-image.jpg");
+
+    /* Set a specific height */
+    min-height: 65vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: 99vw, 70vh;
+}
+
+#Frontpage-logo {
+	position: absolute;
+	top: 18vh;
+	left: 35vw;
+	width: 30vw;
+}
+
+.homepage {
+	background-color: #e60000;
+
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: RobotoLight;
+}
+
+/*.homepage:hover {
+	 background-color: #b30000;
+}*/
+
+.navbar {
+	position: initial;
+}
+
+.navbar-stuck {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.text-center {
+	height: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: RobotoLight;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+	background-color: #111;
+}
+
+li button {
+    display: block;
+    color: white;
+    background-color: #282828;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: RobotoLight;
+    border-color: #282828;
+}
+
+body h1 {
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 25px;
+	font-size: 4em;
+	font-family: RobotoThin;
+	color: white;
+
+}
+
+body h2 {
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 25px;
+	font-size: 2em;
+	font-family: RobotoThin;
+	color: white;
+
+}
+
+body p {
+	color: white;
+	font font-size: 1em;
+	font-family: RobotoLight;
+	padding-top: 25px;
+	padding-left: 50px; 
+	padding-right: 50px;
+	padding-bottom: 25px;
+}
+
+body {
+	background-color: #282828;
+}
+
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #282828, #f0f0f0, #282828);
+  background-image: -moz-linear-gradient(left, #282828, #f0f0f0, #282828);
+  background-image: -ms-linear-gradient(left, #282828, #f0f0f0, #282828);
+  background-image: -o-linear-gradient(left, #282828, #f0f0f0, #282828); 
+}
+
+#Contact-Us {
+	border-top: dotted white 3px;
+	color: white;
+	margin-top: 15px;
+	background-color: #323232;
+}
