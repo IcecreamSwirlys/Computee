@@ -19,7 +19,7 @@
  	background-image: url("Frontpage-image.jpg");
 
     /* Set a specific height */
-    min-height: 65vh; 
+    min-height: 65vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -127,22 +127,23 @@ body p {
 	font font-size: 1em;
 	font-family: RobotoLight;
 	padding-top: 25px;
-	padding-left: 50px; 
+	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 25px;
 }
 
 body {
 	background-color: #282828;
+	overflow-x: hidden;
 }
 
-hr.style14 { 
-  border: 0; 
-  height: 1px; 
+hr.style14 {
+  border: 0;
+  height: 1px;
   background-image: -webkit-linear-gradient(left, #282828, #f0f0f0, #282828);
   background-image: -moz-linear-gradient(left, #282828, #f0f0f0, #282828);
   background-image: -ms-linear-gradient(left, #282828, #f0f0f0, #282828);
-  background-image: -o-linear-gradient(left, #282828, #f0f0f0, #282828); 
+  background-image: -o-linear-gradient(left, #282828, #f0f0f0, #282828);
 }
 
 #Contact-Us {
